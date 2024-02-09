@@ -1,0 +1,18 @@
+JUST GO TO MONGO DB ATLAS AND LOGIN
+1 CLICK ===> DATABASE 
+2 CLICK ==> BROWSER CLOLECTION
+3 CLICK ==> ADD MY OWN DATA
+4 add ==> Database name and Collection name and  click create
+5 click ===> DATABSE ACCESS
+6 ADD NEW DATABASE USER
+7 Password Authentication ===> user ==> students, pass ==> studentsstudents
+8 BUILT IN ROLE ==> Read and write to any database ===> ADD USER CLICK
+9 AGAIN GO TO ==> DATABSE
+10 CLICK CONNECT
+11 Connect to your application ==> DRIVERS
+12 NOW GET THIS ==> mongodb+srv://<username>:<password>@nadeemkhan.4v2dnmg.mongodb.net/?retryWrites=true&w=majority
+12 CHANGE LIKE THIS ===> Mongoose.connect("mongodb+srv://<username>:<password>@nadeemkhan.4v2dnmg.mongodb.net/<databse>?retryWrites=true&w=majority");
+<!-- AFTER CHANGE  -->
+Mongoose.connect("mongodb+srv://students:studentsstudents@nadeemkhan.4v2dnmg.mongodb.net/studentdatabse?retryWrites=true&w=majority");
+
+13 DONE ==> ADD DATA IN FRONT AND CHECK DATA IN DATABASE
